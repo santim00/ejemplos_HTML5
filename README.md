@@ -23,3 +23,54 @@ Entonces, llamamos <b>html semántico</b> a un documento HTML que usa correctame
 
 En una página con html semántico, las tablas solo tienen sentido para mostrar datos tabulados, los divs solo se usan como bloques contenedores como pueden ser la cabecera o pie de la página, la barra lateral, etc. El resto de elementos deben incluirse con las etiquetas html que los representan: titulares, parrafos, listas, citas, estilos de letra, etc. 
 Pero, en HTML tenemos una gama bastante limitada de elementos para construir la estructura de nuestros sitios web. Una de las deficiencias encontradas por varios años de desarrollos web es que no habían tags para construir semánticamente noticias, historias o recetas por ejemplo. Este problema es uno de los que intenta solucionar la nueva definición semántica de HTML5 con el agregado de nuevos tags estructurales semánticos, que serán comentados a continuación (para mas información: http://html5doctor.com/lets-talk-about-semantics/ ).
+
+<h4>Elementos estructurales de HTML5</h4>
+
+Entre otras cosas, HTML5 nos aporta una serie de etiquetas nuevas que permiten mejorar la semántica de nuestra página:
+
+    * <header/>
+    * <footer/>
+    * <nav/>
+    * <aside/>
+    * <section/>
+    * <article/>
+
+Las 3 primeras apenas se prestan a confusión:
+
+    * <header/>: Utilizado comúnmente para situar los elementos del encabezado de un sitio web o una sección.
+    * <footer/>: debe contener información sobre su elemento contenedor(la pagina web o una sección) 
+                - quien lo ha escrito, información de propiedad intelectual, enlaces, etc..-
+    * <nav/>: Nos permite marcar conjunto de links como menús y por tanto ayudar a los buscadores 
+              a detectar nuestra estructura web.
+
+<h6>Section</h6>
+El uso del <b> tag section </b> es muy parecido al de un div pero aportando una carga de significado al contenido. Englobando distintos elementos dentro de una etiqueta section lo que estamos haciendo es declarar que todo su contenido está relacionado y forma parte de un mismo significado o elemento.
+
+La regla para saber cuando usar el nuevo elemento section  es sencilla, tan solo debes hacerte esta pregunta, “¿está todo el contenido que va a albergar, relacionado entre sí?”:
+
+    <section>
+      <h1>Introducción al elemento section</h1>
+      <p>El elemento section se usa para agrupar contenido relacionado entre si.</p>
+      <p>Puede ser usado como un reemplazo al elemento div en ciertas circunstancias</p>
+    </section>
+
+<h6>Article</h6>
+
+el elemento <b>article</b> deberá utilizarse cuando se tenga un contenido que sea independiente, distribuible o reusable, es decir, cuando al mover el contenido a otro lugar de la página, a otra página distinta, o se quite, no afecte al resto de la página. 
+
+Un ejemplo podría ser una entrada de un blog, el cual es un contenido totalmente independiente del resto del blog, y podemos reutilizarlo en otras páginas o incluso llevarlo a otro blog distinto y el blog seguiría teniendo el mismo significado. 
+Otros ejemplos pueden ser las noticias de un periódico o una revista, un comentario en una entrada de un blog, un widget o un gadget, etc. 
+
+Cuando se anidan distintos elementos article, el elemento interior está relacionado con el que lo contiene. Un ejemplo de esta forma de utilizar este elemento seria la entrada de un blog y sus comentarios, los cuales son independientes unos de otros.
+
+<h6>Aside</h6>
+
+El elemento <b>aside</b> debe utilizarse para agrupar contenido relacionado tangencialmente, en el contexto de que su relación con el contenido principal no se relaciona directamente sino de forma lateral. Si tienes contenido que consideras que debe de estar apartado del contenido principal, entonces, debes utilizar un elemento aside para él.
+
+Una regla sencilla para saber cuando puede ser necesario utilizar un elemento aside es cuando la respuesta a la pregunta “¿si se elimina el contenido que agrupa el elemento aside, se reduce el significado del contenido principal?” sea <b>negativa</b>.
+
+<h5>Posibles Layouts</h5>
+
+![Alt text](/img/layout1.png)
+
+![Alt text](/img/layout2.png)
