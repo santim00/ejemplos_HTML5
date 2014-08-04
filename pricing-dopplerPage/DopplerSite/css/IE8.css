@@ -1,0 +1,9 @@
+.button
+{
+	behavior: url(../resources/PIE.htc);
+}
+.smallGrayButton, .inputContainer
+{
+	behavior: url(../resources/PIE.htc);
+	position:relative;
+}

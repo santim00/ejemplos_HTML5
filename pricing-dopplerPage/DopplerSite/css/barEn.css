@@ -1,0 +1,85 @@
+.content{
+	background:url(../images/jbar/3.png) repeat-x;
+	position:relative;
+	width:100%;
+}
+
+.content #arrowUp{
+	cursor:pointer;
+	position:absolute;
+	top:20px;
+	right:30px;
+}
+
+.content #arrowDown{
+	cursor:pointer;
+	position:absolute;
+	top:-80px;
+	right:30px;
+	z-index:9999;
+	
+}
+
+.innerContentEn{
+	 width:979px;
+	 height:70px; 
+	 margin:auto; 
+}
+
+.innerContentEn p{
+	margin:0px;
+	padding:0px;
+	font-family: 'UbuntuBold';
+	color:#F3EDD9;
+	font-size:15px;
+	margin-left:8px;
+	line-height:65px;
+	letter-spacing:-0.4px;
+	margin-right:18px;
+}
+
+.innerContentEn p span{
+	font-family: 'Ubuntu';
+	color:#F3EDD9;
+	font-size:15px;
+	float:none;
+}
+
+.innerContentEn *{
+	float:left;
+}
+
+.innerContentEn img{
+	margin-top:18px;
+}
+
+
+.innerContentEn a{
+	border-radius:25px;
+	background-color:#E55F53;
+	text-decoration:none;
+	font-family: 'Ubuntu';
+	color:#F3EDD9;
+	font-size:13px;
+	padding-left:25px;
+	padding-right:25px;
+	margin-top:14px;
+	margin-right:15px;
+	height:35px;
+	line-height:35px;
+	width:auto;
+}
+
+.innerContentEn a:hover{
+	background-color:#AD473E;
+}
+
+#section{
+	background-color:#CCC;
+	height:600px;
+	position:relative;
+	padding-top:20px;
+	top:0px;
+	width:100%;
+}
+

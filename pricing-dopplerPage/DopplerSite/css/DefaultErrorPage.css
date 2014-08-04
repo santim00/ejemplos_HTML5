@@ -1,0 +1,99 @@
+﻿.errorPage-master {
+	background: #f9f9f7 url("../images/error.png") no-repeat center top;
+	height: 100%;
+	overflow: hidden;
+	width: 100%
+}
+#errorPage, #errorPage body {
+	height: 100%
+}
+.errorPage-container {
+	margin: 55px auto 0;
+	text-align: center;
+	width: 940px
+}
+.errorLogOutPage-container {
+	margin: 20px auto!important
+}
+.errorLogOutPage-container h1 {
+	padding-top: 10px
+}
+.errorLogOutPage-container h2 {
+	margin: -5px auto!important
+}
+body {
+	background-color: #f9f9f7
+}
+h1 {
+	line-height: .9
+}
+.errorPage-container h1 {
+	color: #2b1f00;
+	font-size: 56px;
+	font-weight: normal;
+	letter-spacing: -3px!important;
+	padding-bottom: 45px
+}
+.errorPage-container h2 {
+	color: #92917f;
+	font-size: 22px;
+	font-weight: normal!important;
+	letter-spacing: -.52px;
+	line-height: 140%;
+	margin: -20px auto
+}
+.errorPage-image {
+	background: url("../images/errorImage.png") no-repeat -0 -0;
+	display: inline-block;
+	float: left;
+	margin: 20px auto;
+	height: 316px;
+	width: 100%
+}
+.errorImageContainer {
+	display: inline-block;
+	height: 316px;
+	width: 100%
+}
+.errorImage {
+	background: url("../images/errorImage.png") no-repeat -0 -0;
+	display: inline-block;
+	margin: 0 auto;
+	height: 316px;
+	width: 359px
+}
+.errorPage-link {
+	background: #00ba66;
+	border-radius: 35px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-size: 25px;
+	height: 70px;
+	letter-spacing: -1px;
+	line-height: 70px;
+	text-align: center;
+	text-decoration: none;
+	width: 320px
+}
+.errorPage-container p {
+	color: #6a654b;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 30px;
+	text-align: left
+}
+.supportEmail {
+	color: #00b866!important;
+	text-decoration: none
+}
+.buttonAndHelp {
+	margin-left: 330px;
+	margin-top: 70px
+}
+.buttonSize {
+	width: 320px;
+	height: 139px
+}

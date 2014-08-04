@@ -1,0 +1,198 @@
+#titleContainer
+{
+	text-align:center;
+}
+.mainTitle
+{
+	color:#2B2300;
+	font-family:'UbuntuBold', sans-serif;
+	font-size:60px;
+	padding-top:65px;
+}
+.mainSubtitle
+{
+	color:#6A654B;
+	font-size:25px;
+	font-family:'UbuntuLight',sans-serif;
+	line-height:130%;
+	padding-top:20px;
+	padding-bottom:60px;
+}
+#yellowContainerDrawings
+{
+	background:url(../images/index_yellowback.png) top center no-repeat;
+	height:400px;
+	width:100%;
+}
+#yellowContainer
+{
+	background:url(../images/background_yellow.png);
+	height:835px;
+	width:100%;
+}
+#sliderContainer
+{
+	padding-top:35px;
+}
+#sliderInnerContainer
+{
+	background:url(../images/index_sprite.png) no-repeat;
+	float:left;
+	height:650px;
+	width:650px;
+}
+#slides
+{
+	height:600px;}
+#slides div
+{
+	background:url(../images/index_slides.png) no-repeat;
+	height:406px;
+	margin-top: 92px;
+	margin-left: 92px;
+	padding-left: 612px;
+	padding-top:60px;
+	width: 256px;
+}
+	#slides #slide2, #slides #slide3, #slides #slide4
+	{
+		display:none;
+	}
+	#slides #slide2
+	{
+		background-position: 0 -514px;
+	}
+	#slides #slide3
+	{
+		background-position: 0 -1006px;
+	}
+	#slides #slide4
+	{
+		background-position: 0 -1520px;
+	}
+#pager
+{
+	text-align:center;
+}
+#quotesPager
+{	
+	top: -57px;
+	padding-left: 410px;
+	position: relative;
+	z-index: 10;
+}
+#pager a, #quotesPager a
+{
+	background:url(../images/index_sprite.png) -25px -677px no-repeat;
+	display:inline-block;
+	height:13px;
+	margin-right:10px;
+	width:13px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+#pager a:hover, #pager a.activeSlide,
+#quotesPager a:hover, #quotesPager a.activeSlide
+{
+	background:url(../images/index_sprite.png) -2px -677px no-repeat;
+	cursor:pointer;
+}
+#featuresContainer
+{
+	padding-top:115px;
+	padding-bottom:150px;
+}
+#featuresContainer .quote
+{
+	padding-top:35px;
+}
+.featureRight, .featureLeft
+{
+	background:url(../images/index_slides.png) no-repeat;
+	height:320px;
+	padding-top:80px;
+	width:470px;
+}
+.featureLeft
+{
+	text-align:right;
+	padding-right:490px;
+}
+.featureRight
+{
+	padding-left:490px;
+}
+#feature2
+{
+	background-position: 0 -2016px;
+}
+#feature1
+{
+	background-position: 559PX -2436px;
+}
+#feature3
+{
+	background-position: 559px -2879px;
+}
+#feature4
+{
+	background-position: 0 -3305px;
+}
+#quotesSliderContainer
+{
+	padding-bottom:120px;
+}
+#quotesContainer
+{
+	background:url(../images/index_sprite.png) 425px -1219px no-repeat;
+	height:580px;
+	padding-top:55px;
+}
+#quotesSlides
+{
+	background:url(../images/index_sprite.png) 560px -780px no-repeat;
+}
+#quotesSlides div
+{
+	background:url(../images/index_quoteSlides.png) transparent no-repeat;
+	height:290px;
+	padding-right:490px;
+	padding-top:110px;
+	text-align:right;
+	width:470px;
+}
+#quotesSlides div .quote
+{
+	padding-bottom:20px;	
+}
+#quoteSlide1
+{
+	background-position:595px 35px !important;
+}
+#quoteSlide2
+{
+	background-position:595px -355px !important;
+	display:none;
+}
+#quoteSlide3
+{
+	background-position: 595px -745px !important;
+	display:none;
+}
+.quoteSignature
+{
+	color:#ACAC9E;
+	font-size:16px;
+	font-family:'UbuntuLight',sans-serif;
+	line-height:140%;
+}
+.quoteSignature .quoteAuthor
+{
+	color:#2B1F00;
+	font-family:'Ubuntu',sans-serif;
+}
+#getStarted
+{
+	margin-top:35px;
+}

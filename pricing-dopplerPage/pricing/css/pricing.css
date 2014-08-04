@@ -1,0 +1,246 @@
+#titleContainer
+{
+	text-align:center;
+}
+.mainTitle
+{
+	color:#FFF;
+	font-family:'UbuntuBold', sans-serif;
+	font-size:60px;
+	padding-top:40px;
+}
+.mainSubtitle
+{
+	color:#FFF;
+	font-size:22px;
+	font-family:'UbuntuLight', sans-serif;
+	line-height:130%;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+span.mainTitle
+{
+	font-family:'UbuntuMedium', sans-serif;
+	vertical-align:top;
+	padding-left:25px;
+}
+span.anotation
+{
+	color:#D0EEDF;
+	display:inline-block;
+	font-family:'UbuntuLightItalic', sans-serif;
+	font-size:15px;
+	line-height:130%;
+	padding-left:15px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+#pricingGreenContainer
+{
+	background: url(../images/pricing_green_Background.png) top center;
+	height: 500px;
+	width: 100%;
+}
+.featureSubTitle {
+	color: #94917F;
+	font-size:22px;
+}
+#firstTable
+{
+	background:url(../images/pricing_horizontalLine.png) bottom left no-repeat;
+	height:133px;
+	margin-bottom: 40px !important;
+	position:relative;
+	top:-40px;
+}
+#firstTable .featureSubTitle
+{
+	display:inline-block;
+	font-family:'UbuntuLightItalic', sans-serif;
+	padding-left:30px;
+	padding-top:0px;
+	vertical-align: middle;
+	width: 535px;	
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.tableTitle
+{
+	display:inline-block;
+	width:645px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.tableButton
+{
+	display:inline-block;
+	padding-top:85px;
+	vertical-align:top;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+
+.priceTable
+{
+	padding-top:75px;
+	padding-bottom:35px;
+}
+/****NEW STYLE ***/
+.priceTable table th {
+    border: 1px #D7D6CF;
+    border-style: dashed none dashed none;
+    border-collapse: collapse;
+    padding: 20px 20px 20px 0;
+}
+.priceTable table .table-header{
+    font: italic normal 15px 'UbuntuItalic', sans-serif;
+    text-align: left;
+}
+
+.priceTable table td{
+	color:#92917e;
+    font: 16px 'UbuntuLight', sans-serif;
+    text-align: left;
+}
+
+.priceTable table td .first{
+    
+}
+
+.priceTable table td .second{
+    font: italic normal 16px 'UbuntuLightItalic', sans-serif;
+}
+.priceTable table td .third{
+    color:#2B1F00;
+    font-size: 18px;
+    text-align: left;
+}
+
+.priceTable table td .third span{
+	font: normal bold 31px 'UbuntuBold', sans-serif;
+}
+
+/****END NEW STYLE ***/
+.firstColumn
+{
+	background:url(../images/pricing_sprite.png) no-repeat;
+	display:inline-block;
+	float:left;
+	height:123px;
+	padding-left:10px;
+	width:91px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.firstColumn p
+{
+	color:#2B1F00;
+	font-family:'UbuntuItalic', sans-serif;
+	font-size:13px;
+	padding-bottom:36px;
+}
+.priceItem
+{
+	background:url(../images/pricing_sprite.png) 114px 0 no-repeat;
+	display:inline-block;
+	height:123px;
+	text-align:right;
+	padding-right:12px;
+	width:106px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.priceItem .price
+{
+	color:#2B1F00;
+	font-size:25px;
+	font-family:'UbuntuLight', sans-serif;
+	letter-spacing:-1px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.priceItem .price span
+{
+	color:#2B1F00;
+	font-size:28px;
+	font-family:'UbuntuMedium', sans-serif;
+}
+.priceItem .limit
+{
+	font-size:13px;
+}
+#individual
+{
+	padding-top:80px;
+}
+#individual .priceItem
+{
+	background-position:99px 0;
+	width:90px;
+}
+#highVolumeContainer
+{
+	display:noene;
+}
+#greyContainer {
+	height:530px;
+	padding-top:100px;
+}
+.specialOptions .right, .specialOptions .left
+{
+	display:inline-block;
+	height:40px;
+	width:478px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.specialOptions a
+{
+	color:#00BA63;
+	font-size:16px;
+}
+.specialOptions .right
+{
+	text-align:right;	
+}
+.specialOptions span
+{
+	color:#2B1F00;	
+	font-family:'UbuntuMedium', sans-serif;
+}
+#highVolumeLink span
+{
+	cursor:pointer;
+}
+#tipBackground
+{	
+	background:url(../images/pricing_sprite.png) 860px -175px no-repeat;
+	font-family:'UbuntuMedium', sans-serif;
+	height:19px;
+}
+#highVolumeContainer
+{
+	display:none;
+}
+span.icon
+{
+	background:url(../images/pricing_sprite.png) 0 -231px no-repeat;
+	display:inline-block;
+	height:13px;
+	padding-right:5px;
+	width:13px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+footer
+{
+	height:780px !important;
+}

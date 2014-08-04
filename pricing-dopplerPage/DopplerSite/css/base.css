@@ -1,0 +1,549 @@
+@font-face {
+    font-family: 'Ubuntu';
+	src: url('font_ubuntu/ubuntu-regular.eot');
+    src: url('font_ubuntu/ubuntu-regular.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu/ubuntu-regular.woff') format('woff'),
+         url('font_ubuntu/ubuntu-regular.ttf') format('truetype'),
+         url('font_ubuntu/ubuntu-regular.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuLight';
+	src: url('font_ubuntu/ubuntu-light.eot');
+    src: url('font_ubuntu/ubuntu-light.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu/ubuntu-light.woff') format('woff'),
+         url('font_ubuntu/ubuntu-light.ttf') format('truetype'),
+         url('font_ubuntu/ubuntu-light.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+	src: url('font_ubuntu/ubuntu-medium.eot');
+    src: url('font_ubuntu/ubuntu-medium.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu/ubuntu-medium.woff') format('woff'),
+         url('font_ubuntu/ubuntu-medium.ttf') format('truetype'),
+         url('font_ubuntu/ubuntu-medium.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuBold';
+	src: url('font_ubuntu_bold/ubuntu-bold.eot');
+    src: url('font_ubuntu_bold/ubuntu-bold.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu_bold/ubuntu-bold.woff') format('woff'),
+         url('font_ubuntu_bold/ubuntu-bold.ttf') format('truetype'),
+         url('font_ubuntu_bold/ubuntu-bold.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuItalic';
+	src: url('font_ubuntu_italic/ubuntu-italic.eot');
+    src: url('font_ubuntu_italic/ubuntu-italic.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu_italic/ubuntu-italic.woff') format('woff'),
+         url('font_ubuntu_italic/ubuntu-italic.ttf') format('truetype'),
+         url('font_ubuntu_italic/ubuntu-italic.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UbuntuLightItalic';
+	src: url('font_ubuntu_italic/ubuntu-lightitalic.eot');
+    src: url('font_ubuntu_italic/ubuntu-lightitalic.eot?#iefix') format('embedded-opentype'),
+         url('font_ubuntu_italic/ubuntu-lightitalic.woff') format('woff'),
+         url('font_ubuntu_italic/ubuntu-lightitalic.ttf') format('truetype'),
+         url('font_ubuntu_italic/ubuntu-lightitalic.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, textarea, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, input,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	color:#92917F;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: 'Ubuntu',sans-serif;
+	vertical-align: baseline;		
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input, textarea{
+	font-weight:normal;
+	outline:none;
+}
+
+/*GENERAL STYLES*/
+
+html, body{	
+	height:100%;
+}
+
+header{
+	background-color:#FFF;
+	margin: auto;
+	height:150px;
+	width:100%;
+}
+	header .innerContainer{
+		margin:0pt auto;
+		width:960px;
+	}
+
+	header #logo{
+		background: url(../images/logo.png) no-repeat;
+		display:inline-block;
+		float:left;
+		height:48px;
+		width:136px;
+		/*IE Hack*/
+		zoom:1;
+		*display:inline;
+	}
+	header .languageSelector
+	{
+		color:#ACAC9D;
+		height:20px;
+		font-size:12px;
+		margin:0pt auto;
+		padding-top:30px;
+		text-align:right;
+		width:960px;
+	}
+	header .languageSelector a
+	{
+		text-decoration:none;
+	}
+	header nav{
+		margin:auto;
+		display:inline-block;
+		float: right;
+		height:60px;
+		text-align:right;
+		width:760px;
+		zoom:1;
+		*display:inline;
+	}	
+	header nav li{
+		float:right;
+	}
+		
+		header nav a {
+			-moz-user-select: none;  
+    		-webkit-user-select: none;  
+    		-ms-user-select: none;
+			color:#ACAC9E;	
+			cursor:pointer;
+			display:inline-block;
+			float:left;		
+			font-size:17px;
+			height:60px;
+			line-height:60px;
+			padding:0px 10px;
+			text-decoration:none;
+			outline:none;
+			/*IE Hack*/
+			zoom:1;
+			*display:inline;
+		}
+		header nav li:first-child a
+		{
+			padding-right:0px;
+		}
+			header nav a.selected{
+				
+				color:#2B2300;
+			}
+						
+			header nav a:hover, header nav a.green:hover{
+				
+				color:#2B2300;
+			}
+			
+#contentContainer .innerContainer
+{
+	margin:0pt auto;
+	width:960px;
+}
+.mainTitle {
+	letter-spacing:-2px;
+}
+footer
+{
+	height:1160px;
+	margin: auto;
+	width:100%;
+}
+	footer .innerContainer
+	{
+		margin:0pt auto;
+		padding-top:100px;
+		width:960px;
+	}
+	footer .getStarted
+	{
+		margin-bottom:65px;
+		text-align:center;
+	}
+	footer .getStarted a.green
+	{
+		font-family:'UbuntuLight', sans-serif;
+	}
+	footer .bottomContainer
+	{
+		background: url(../images/background_footer.png) top center no-repeat;
+		height:360px;
+		padding-top:420px;
+	}
+	footer .bottomContainer .innerContainer
+	{
+		padding-top:0px;
+	}
+	footer .bottomContainer #subscriptionContainer
+	{
+		height:70px;
+		margin-bottom:95px;
+	}
+		footer .bottomContainer #subscriptionContainer .smallQuote
+		{
+			float:left;
+			line-height:70px;
+		}
+		footer .bottomContainer #subscriptionContainer .inputContainer
+		{
+			float:right;
+		}
+	footer .bottomContainer .footerNavList
+	{
+		float:left;		
+		color:#92917F;
+		font-size:13px;
+		padding-right:30px;
+		min-width:140px;
+	}
+		footer .bottomContainer .footerNavList .footerNavListTitle
+		{
+			color:#3F370C;
+			font-size:15px;
+			font-family:'UbuntuMedium', sans-serif;
+			padding-bottom:15px;
+		}
+		footer .bottomContainer .footerNavList .footerNavListOption
+		{
+			padding-bottom:15px;
+		}
+		footer .bottomContainer .footerNavList .footerNavListOption a
+		{
+			text-decoration:none;
+		}
+		footer .bottomContainer .footerNavList .footerNavListOption a:hover
+		{
+			color:#2B2300;
+			cursor:pointer;
+		}
+	footer .bottomContainer #socialNetworksContainer
+	{
+		float:right;
+		font-size:12px;
+		text-align:right;
+		width:250px;
+	}
+	footer .bottomContainer #socialNetworksContainer div
+	{
+		margin-bottom:43px;
+	}
+	footer .bottomContainer #socialNetworksContainer a
+	{
+		background:url(../images/base_sprite.png) no-repeat;
+		cursor:pointer;
+		display:inline-block;
+		height:43px;
+		text-align:right;
+		padding-right:2px;
+		width:43px;
+		/*IE Hack*/
+		zoom:1;
+		*display:inline;
+	}
+	footer .bottomContainer #socialNetworksContainer #twitter:hover
+	{
+		background-position:0 -50px;
+	}
+	footer .bottomContainer #socialNetworksContainer #facebook
+	{
+		background-position:-48px 0;
+	}
+	footer .bottomContainer #socialNetworksContainer #facebook:hover
+	{
+		background-position:-48px -50px;
+	}
+	footer .bottomContainer #socialNetworksContainer #linkedin
+	{
+		background-position:-97px 0;
+	}
+	footer .bottomContainer #socialNetworksContainer #linkedin:hover
+	{
+		background-position:-97px -50px;
+	}
+	footer .bottomContainer #socialNetworksContainer #googlePlus
+	{
+		background-position:-147px 0;
+	}
+	footer .bottomContainer #socialNetworksContainer #googlePlus:hover
+	{
+		background-position:-147px -50px;
+	}
+	footer .bottomContainer #socialNetworksContainer #pinterest
+	{
+		background-position:-197px 0;
+	}
+	footer .bottomContainer #socialNetworksContainer #pinterest:hover
+	{
+		background-position:-197px -50px;
+	}
+.quote
+{
+	color:#9F9B88;
+	font-size:22px;
+	font-family:'UbuntuLight',sans-serif;
+	line-height:140%;
+}
+.featureTitle, .featureTitleRegular
+{
+	color:#2B1F00;
+	font-family:'UbuntuLight', sans-serif;
+	font-size:50px;
+}
+.featureTitleRegular
+{
+	font-family: 'Ubuntu',sans-serif;
+}
+.featureTitleBold
+{
+	color:#2B1F00;
+	font-family:'UbuntuBold', sans-serif;
+	font-size:50px;
+	letter-spacing:-2px;
+}
+.featureSubTitle
+{
+	color:#261F00;
+	font-size:18px;
+	font-family:'UbuntuLight', sans-serif;
+	line-height:140%;
+	padding-top:35px;
+}
+.smallQuote
+{
+	font-size:16px;
+	font-family:'UbuntuLight', sans-serif;
+}
+.quoteTitle
+{
+	color:#2B1F00;
+	font-size:40px;
+	font-family:'UbuntuMedium', sans-serif;
+	line-height:52px;
+	letter-spacing:-2px;
+	padding-bottom:20px;
+}
+.mediumQuote
+{
+	font-size:20px;
+	letter-spacing:-1px;
+}
+.button, .button-form
+{
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+	cursor:pointer;
+	display:inline-block;
+	font-size:25px;
+	height:70px;
+	line-height:70px;
+	letter-spacing:-1px;
+	text-align:center;
+	text-decoration:none;
+	width:310px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+
+.form-footer{
+	margin-top:15px;
+}
+
+.form-footer div{
+	float:left;
+}
+
+.button-form{
+	width:250px !important;
+}
+
+
+.greenButton
+{
+	background-color:#00BA66;
+	color:#FFF;
+}
+.greenButton:hover
+{
+	background-color:#02B061;
+}
+.brownButton
+{
+	background-color:#2B2300;
+	color:#FFF;
+}
+.brownButton:hover
+{
+	background-color:#403916;
+}
+.yellowButton
+{	
+	background-color:#FFE76E;
+	color:#2B1F00;
+}
+.yellowButton:hover
+{
+	background-color:#F4F4F2;
+}
+.whiteButton
+{
+	background-color:#FFF;
+	color:#00C056;
+}
+.smallGrayButton
+{
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	background-color:#C0C0B3;
+	border-radius: 50px;	
+	color:#FFF;
+	cursor:pointer;
+	display:inline-block;
+	font-size:18px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	width:110px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;
+}
+.smallGrayButton:hover
+{
+	background-color:#D3D3CA;
+}
+.inputContainer
+{
+	-webkit-border-radius: 70px;
+	-moz-border-radius: 70px;
+	background-color:#FFF;
+	border-radius: 70px;	
+	display:inline-block;
+	height:70px;
+	width:400px;
+	/*IE Hack*/
+	zoom:1;
+	*display:inline;	
+}
+.inputContainer input[type="text"]
+{
+	font-size:15px;
+	height:50px;
+	line-height:50px;
+	margin: 12px 6px 0 30px;
+	width:240px;
+}
+.inputContainer input[type="text"].emptyInput
+{
+	font-family: 'UbuntuItalic', sans-serif;
+}
+#emailErrorMessage, #subscribeConfirmationContainer, #subscribeErrorContainer
+{
+	display:none;
+}
+.email-error-message
+{
+	background:url(../images/base_sprite.png) 360px -116px no-repeat;
+	color:#E97017;
+	font-family: 'UbuntuItalic', sans-serif;
+	height:48px;
+	padding:28px 0 0 25px;
+	width:375px;
+}
+#subscribeConfirmationContainer
+{
+	background:url(../images/base_sprite.png) 360px -203px no-repeat;
+	color:#403913;
+	height:48px;
+	padding:28px 0 0 25px;
+	width:375px;
+}
+#greyContainer
+{
+	background:url(../images/background_grey.png);
+	height:770px;
+	padding-top:150px;
+	width:100%;
+}
+a.green
+{				
+	color:#00B966;
+	text-decoration:none;
+}
+a.green:hover
+{
+	color:#2B2300;
+	cursor:pointer;
+}
+#getStarted
+{
+	margin-top:35px;
+}
+.medium
+{
+	font-family:'UbuntuMedium';
+	letter-spacing:-2px;
+}
+	

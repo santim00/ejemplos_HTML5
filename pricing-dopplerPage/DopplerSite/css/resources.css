@@ -1,0 +1,451 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #02A455;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #02A455;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #02A455;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #02A455;
+}
+button:focus {
+	outline:none !important;
+}
+main#resources {
+	width: 100%;
+}
+main#resources header, main#resources section, main#resources footer, main#resources hr {
+	margin: auto;
+	width: 960px;
+}
+main#resources>header {
+	height: 228px;
+}
+main#resources section {
+	margin-top: 117px;
+}
+main#resources #ebooks hr, main#resources #infografias hr{
+	clear:both;
+	padding-top: 120px;
+}
+main#resources {
+	background: url(../images/features_yellow_Background.png) top center no-repeat;
+}
+main#resources hr {
+	border: 0px;
+	border-bottom: 1px dotted #999999;
+	height: 0px;
+}
+main#resources h1 {
+	color: #2B1F00;
+	font-family: 'UbuntuBold';
+}
+main#resources p {
+	color: #2B1F00;
+	font-family: 'UbuntuLight';
+	line-height: 1.3;
+}
+main#resources header h1 {
+	padding: 44px 0px 18px 0px;
+	font-size: 60px;
+	letter-spacing:-1px;
+}
+main#resources header p {
+	font-size: 22px;
+}
+main#resources section h1 {
+	font-size: 48px;
+	line-height:48px;
+	letter-spacing:-1px;
+	padding: 0px 0px 15px 0px;
+}
+main#resources section p {
+	font-size: 18px;
+}
+main#resources footer h1 {
+	font-size: 24px;
+}
+main#resources footer p {
+	font-size: 15px;
+}
+main#resources section#ebooks header, main#resources section#infografias header{
+	height:158px !important;
+}
+main#resources section#ebooks footer header, main#resources section#infografias footer header{
+	height:100px !important;
+}
+main#resources section#ebooks footer header h1, main#resources section#infografias footer header h1{
+	line-height:24px;
+}
+main#resources section#ebooks figure, main#resources section#infografias figure {
+	height:220px;
+	position:relative;
+	width:220px;
+}
+main#resources section#ebooks figure figcaption, main#resources section#infografias figure figcaption{
+	background-color: #2B2100;
+	display:none;
+	height: 220px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	width: 220px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+main#resources section#ebooks figure figcaption header, main#resources section#infografias figure figcaption header{
+	height:105px;
+	width:200px !important;
+}
+main#resources section#ebooks figure button, main#resources section#infografias figure button{
+	background-color: #00B966;
+	border-radius: 100px;
+	border: 0px;
+	color: #FFF;
+	cursor: pointer;
+	display:none;
+	height: 40px;
+	text-align: center;
+	width: 160px;
+	position: absolute;
+	top: 145px;
+	left: 30px;
+}
+main#resources section#ebooks figure button:focus, main#resources section#infografias figure button:focus{
+	outline:none;
+}
+main#resources section#ebooks article figure, main#resources section#infografias figure {
+	float:left;
+	margin-right:20px;
+	height:220px;
+	width:220px;
+}
+main#resources section#ebooks article figure:last-child, main#resources section#infografias article figure:last-child{
+	margin-right:0px !important;
+}
+main#resources section#ebooks figure img, main#resources section#infografias figure img {
+	cursor:pointer;
+	margin-right: 20px;
+	width: 220px;
+}
+main#resources section#ebooks figure img:last-child, main#resources section#infografias figure img:last-child {
+	margin-right: 0px;
+}
+main#resources section#ebooks footer, main#resources section#infografias footer {
+	clear: both;
+	display: none;
+	height: 232px;
+	padding-top: 20px;
+}
+main#resources section#ebooks article figure figcaption header h1, main#resources section#infografias article figure figcaption header h1{
+	color:#FFF;
+	font-size:18px;
+	line-height:1.1;
+	margin-top:40px;
+}
+main#resources section#ebooks article figure figcaption header p, main#resources section#infografias article figure figcaption header p{
+	color:#FFF;
+	font-size:13px;
+}
+main#resources section#ebooks footer section, main#resources section#infografias footer section {
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	height: 202px;
+	padding: 30px 0px 0px 30px;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	width: 910px;
+}
+main#resources section#ebooks footer section #closeSuscriberAndDownload, main#resources section#infografias footer section #closeSuscriberAndDownload {
+	background-color: #006;
+	border-radius: 10px;
+	cursor:pointer;
+	height: 10px;
+	position:absolute;
+	right:0px;
+	width: 10px;
+}
+main#resources section#ebooks footer section header, main#resources section#infografias footer section header {
+	height: 95px;
+}
+main#resources section#ebooks footer form input, main#resources section#infografias footer form input {
+	border-radius: 100px;
+	color: #01A454;
+	height: 51px;
+	line-height: 18px;
+	font-size: 15px;
+	font-family: 'UbuntuItalic';
+	padding: 0px 20px 0px 20px;
+	margin-right: 20px;
+	position: relative;
+	top: -3px;
+	width: 564px;
+}
+main#resources section#ebooks footer form input:focus, main#resources section#infografias footer form input:focus {
+	color: #2B2300 !important;
+}
+main#resources section#ebooks footer form input.error, main#resources section#infografias footer form input.error {
+	background: url(../images/resources/error.png) 558px 12px no-repeat #fff;
+	border-radius: 100px;
+	color: #E97017 !important;
+	height: 51px;
+	line-height: 18px;
+	font-size: 15px;
+	font-family: 'UbuntuItalic';
+	padding: 0px 20px 0px 20px;
+	margin-right: 20px;
+	position: relative;
+	top: -3px;
+	width: 564px;
+}
+main#resources section#ebooks footer form button, main#resources section#infografias footer form button {
+	border: 0px;
+	background-color: #00B966;
+	box-sizing: border-box;
+	border-radius: 100px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 51px;
+	line-height: 18px;
+	font-size: 18px;
+	font-family: 'Ubuntu';
+	width: 258px;
+}
+main#resources section#dopplerAcademy header {
+	height: 160px !important;
+}
+main#resources section#dopplerAcademy aside article header {
+	height:45px !important;
+	margin-left:20px;
+	position:relative;
+	width:470px !important;
+}
+main#resources section#dopplerAcademy aside article header h1 {	
+	color:#2B1F00;
+	cursor:pointer;
+	font-size:24px;
+	height:45px;
+	line-height:45px;
+	letter-spacing:-1px;
+	padding:0px 0px 0px 20px !important;
+	list-style:none;
+}
+main#resources section#dopplerAcademy aside article{
+	float:left;
+}
+main#resources section#dopplerAcademy aside article ul{
+	display:none;
+	float:left;
+	margin:0px 0px 10px 0px;
+}
+main#resources section#dopplerAcademy aside article hr{
+	border-bottom:1px dotted #999999;
+	float:left;
+	width:458px;
+}
+main#resources section#dopplerAcademy aside article ul li {
+	color:#2B2000;
+	font-size:13px;
+	font-family: 'UbuntuLight';
+	line-height:25px;
+	padding-left:50px;
+}
+main#resources section#dopplerAcademy aside article ul li:hover {
+	color:#00B866;
+	cursor:pointer;
+}
+main#resources section#dopplerAcademy div, main#resources section#dopplerAcademy aside {
+	float: left;
+}
+main#resources section#dopplerAcademy div{
+	height:316px;
+	width:460px;
+}
+main#resources section#dopplerAcademy div article ul {
+	position:relative;
+}
+main#resources section#dopplerAcademy div article ul li {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+main#resources section#dopplerAcademy aside {
+	position: relative;
+	top: -7px;
+	width: 470px;
+}
+main#resources footer#footerResources {
+	clear: both;
+	height: 258px !important;
+}
+main#resources footer#footerResources form input {
+	background-color:#F6F6F4;
+	border-radius: 100px;
+	color: #01A454;
+	height: 51px;
+	line-height: 18px;
+	font-size: 15px;
+	font-family: 'UbuntuItalic';
+	padding: 0px 20px 0px 20px;
+	margin-right: 20px;
+	position:relative;
+	top:-3px;
+	width: 690px;
+}
+main#resources footer#footerResources form input.error {
+	background: url(../images/resources/error.png) 693px 10px no-repeat #fff;
+	background-color:#F6F6F4;
+	border-radius: 100px;
+	color: #01A454;
+	height: 51px;
+	line-height: 18px;
+	font-size: 15px;
+	font-family: 'UbuntuItalic';
+	padding: 0px 20px 0px 20px;
+	margin-right: 20px;
+	position:relative;
+	top:-3px;
+	width: 690px;
+}
+
+main#resources footer#footerResources form button {
+	border: 0px;
+	background-color: #00B966;
+	box-sizing: border-box;
+	border-radius: 100px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 51px;
+	line-height: 51px;
+	font-size: 18px;
+	font-family: 'Ubuntu';
+	width: 188px;
+}
+footer {
+	height: 780px;
+}
+main#resources footer header {
+	height:146px !important;
+}
+
+#formSendAndDownload label.error, #formSendAndDownloadInfografia label.error{	
+	bottom: 17px;
+	color: #E97017;
+	font-family: 'UbuntuItalic';
+	font-size: 15px;
+	right: 317px;
+	position: absolute;
+}
+#suscribeVideos{
+	position:relative;
+}
+#suscribeVideos label.error{	
+	bottom: -30px;
+	color: #E97017;
+	font-family: 'UbuntuItalic';
+	font-size: 15px;
+	right: 239px;
+	position: absolute;
+}
+#list-iframe>li:first-child{
+	z-index:9999;
+}
+.triangulo_der {
+	width: 0 !important;
+	height: 0 !important;
+	border-top: 5px solid transparent;
+	border-left: 7px solid #2B2100 !important;
+	border-bottom: 5px solid transparent;
+	position: absolute;
+	right: 13px;
+	top: 19px;
+	cursor:pointer;
+}
+
+.abajo{
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+#resourcesDownload{
+	color: #2B1F00;
+	font-family: 'UbuntuBold';
+}
