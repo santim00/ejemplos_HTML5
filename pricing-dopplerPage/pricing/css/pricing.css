@@ -88,40 +88,102 @@ span.anotation
 {
 	padding-top:75px;
 	padding-bottom:35px;
+	width: 60%;
 }
 /****NEW STYLE ***/
+#contentContainer .plan-container{
+	padding-bottom: 70px;
+	padding-top:80px;
+}
+
+#contentContainer .plan-container:first-child{
+	padding-top:0px;
+}
+
+.featureSubTitle span{
+	color: #92917e;
+	font-family: 'UbuntuBold', sans-serif;
+}
+
+aside.image-container{
+	float:right;
+	width: 40%;
+	height: 100%;	
+}
+
+aside div.monthly-plan{
+	margin-top: 150px;
+	background-color: orange;
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+}
 .priceTable table th {
     border: 1px #D7D6CF;
     border-style: dashed none dashed none;
-    border-collapse: collapse;
-    padding: 20px 20px 20px 0;
+    border-collapse: collapse;    
+	color: #000;
+    padding: 20px 100px 20px 0;
+	font: italic normal 15px 'UbuntuItalic', sans-serif;
+	text-align: left;
 }
-.priceTable table .table-header{
-    font: italic normal 15px 'UbuntuItalic', sans-serif;
-    text-align: left;
+.priceTable table th:first-child {
+    padding-left: 0;	
 }
 
 .priceTable table td{
 	color:#92917e;
     font: 16px 'UbuntuLight', sans-serif;
     text-align: left;
+    letter-spacing: -1px;
+    padding: 10px 0;
 }
 
 .priceTable table td .first{
     
 }
 
-.priceTable table td .second{
+.priceTable table td.second{
     font: italic normal 16px 'UbuntuLightItalic', sans-serif;
 }
-.priceTable table td .third{
+.priceTable table td.third{
     color:#2B1F00;
     font-size: 18px;
     text-align: left;
 }
 
-.priceTable table td .third span{
-	font: normal bold 31px 'UbuntuBold', sans-serif;
+.priceTable table td.third span{
+	font: normal normal 31px 'UbuntuBold', sans-serif;
+	color: #2B1F00;
+}
+
+section div.currency-option{
+	border-style: dashed none dashed none !important;
+	border: 1px #D7D6CF;
+	padding: 20px 0;
+	width: 60%;
+	clear: both;
+}
+
+section div.currency-option p{
+	font: italic normal 12px 'UbuntuLightItalic', sans-serif;
+	line-height: 1.5;
+	width: 70%;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+section div.currency-option p span{
+	color: #92917e;
+	font-family: 'UbuntuBold', sans-serif;
+}
+
+section div.currency-option .dropdown-currency{
+	background-color: orange;
+	height: 50px;
+	width: 29%;
+	float: right;
+	display: inline-block;
 }
 
 /****END NEW STYLE ***/
@@ -184,14 +246,14 @@ span.anotation
 	background-position:99px 0;
 	width:90px;
 }
-#highVolumeContainer
-{
-	display:noene;
-}
+
 #greyContainer {
-	height:530px;
-	padding-top:100px;
+	height: 100%;
 }
+section .specialOptions{
+	margin-top: 30px;
+}
+
 .specialOptions .right, .specialOptions .left
 {
 	display:inline-block;
@@ -225,10 +287,7 @@ span.anotation
 	font-family:'UbuntuMedium', sans-serif;
 	height:19px;
 }
-#highVolumeContainer
-{
-	display:none;
-}
+
 span.icon
 {
 	background:url(../images/pricing_sprite.png) 0 -231px no-repeat;
