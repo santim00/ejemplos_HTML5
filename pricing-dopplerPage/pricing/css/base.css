@@ -440,8 +440,8 @@ footer
 }
 .yellowButton
 {	
-	background-color:#FFE76E;
-	color:#2B1F00;
+	background-color:#FFE677;
+	color:#2B2000;
 }
 .yellowButton:hover
 {
@@ -451,6 +451,10 @@ footer
 {
 	background-color:#FFF;
 	color:#00C056;
+}
+.whiteButton:hover
+{
+	background-color:#D7D5CD;
 }
 .smallGrayButton
 {

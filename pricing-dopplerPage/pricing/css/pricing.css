@@ -96,8 +96,9 @@ span.anotation
 	padding-top:80px;
 }
 
-#contentContainer .plan-container:first-child{
+#contentContainer .first-plan-container{
 	padding-top:0px;
+	padding-bottom: 70px;
 }
 
 .featureSubTitle span{
@@ -113,22 +114,39 @@ aside.image-container{
 
 aside div.monthly-plan{
 	margin-top: 150px;
-	background-color: orange;
+	background: url(../images/month-image.png) top center;
 	display: inline-block;
-	height: 50px;
-	width: 100%;
+	height: 350px;
+	width: 247px;
+	margin-left: 100px;
+}
+aside div.prepaid-plan{
+	margin-top: 150px;
+	background: url(../images/prepaid-plans-image.png) top center;
+	display: inline-block;
+	height: 267px;
+	width: 267px;
+	margin-left: 100px;
+}
+aside div.highVolume-plan{
+	margin-top: 100px;
+	background: url(../images/high-volume-image.png) top center;
+	display: inline-block;
+	height: 424px;
+	width: 190px;
+	margin-left: 100px;
+}
+.priceTable table th:first-child {
+    padding-left: 0;	
 }
 .priceTable table th {
     border: 1px #D7D6CF;
     border-style: dashed none dashed none;
     border-collapse: collapse;    
-	color: #000;
+	color: #2b1f00;
     padding: 20px 100px 20px 0;
 	font: italic normal 15px 'UbuntuItalic', sans-serif;
 	text-align: left;
-}
-.priceTable table th:first-child {
-    padding-left: 0;	
 }
 
 .priceTable table td{
@@ -160,15 +178,15 @@ aside div.monthly-plan{
 section div.currency-option{
 	border-style: dashed none dashed none !important;
 	border: 1px #D7D6CF;
-	padding: 20px 0;
+	padding: 30px 0;
 	width: 60%;
 	clear: both;
 }
 
 section div.currency-option p{
-	font: italic normal 12px 'UbuntuLightItalic', sans-serif;
+	font: italic normal 11px 'UbuntuLightItalic', sans-serif;
 	line-height: 1.5;
-	width: 70%;
+	width: 68%;
 	display: inline-block;
 	margin-top: 8px;
 }
@@ -179,9 +197,9 @@ section div.currency-option p span{
 }
 
 section div.currency-option .dropdown-currency{
-	background-color: orange;
+	background: url(../images/currency-dropdown.png) top center;
 	height: 50px;
-	width: 29%;
+	width: 31%;
 	float: right;
 	display: inline-block;
 }
@@ -249,6 +267,7 @@ section div.currency-option .dropdown-currency{
 
 #greyContainer {
 	height: 100%;
+	padding-top: 0;
 }
 section .specialOptions{
 	margin-top: 30px;
